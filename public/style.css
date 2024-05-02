@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    max-width: 800px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+    margin-top: 32px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.search-bar {
+    border: none;
+    background: #eee;
+    padding: 10px 16px;
+    border-radius: 24px;
+    width: 200px;
+}
+
+.search-btn {
+    padding: 10px 16px;
+    border: none;
+    background: #f67904;
+    color: white;
+    border-radius: 24px;
+    font-weight: 500;
+}
+
+#city {
+    margin-top: 32px;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: -48px;
+    color: #777;
+}
+
+#temp {
+    font-size: 98px;
+    font-weight: 500;
+}
+
+#weatherdeets {
+    display: flex;
+    margin-top: -48px;
+}
+
+#description {
+    margin-left: 8px;
+}
+
+#description, #humidity, #wind {
+ margin-right: 24px;
+ font-size: 16px;
+ margin-top: 14px;
+}
+
+hr{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+#recs {
+    font-weight: 500;
+}
+
+.rec-items {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#btns-div {
+    display: flex;
+    margin-top: 32px;
+}
+
+#recItems {
+    padding: 10px 16px;
+    border: none;
+    background: #f67904;
+    color: white;
+    border-radius: 24px;
+    font-weight: 500;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+#retItems {
+    padding: 10px 16px;
+    border: none;
+    background: #eee;
+    border-radius: 24px;
+    font-weight: 500;
+}
+
+.orange-btn {
+    padding: 10px 16px;
+    border: none;
+    background: #f67904;
+    color: white;
+    border-radius: 24px;
+    font-weight: 500;
+}
+
+.home-btn {
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    padding: 10px 16px;
+    border: none;
+    background: #f7f7f7;
+    border-radius: 24px;
+    font-weight: 500;
+}
+
+.items-select {
+    border: 1px solid #ccc;
+    padding: 10px 10px;
+    border-radius: 4px;
+    width: 200px;
+}
+
+/* #cityname {
+    font-size: 32px;
+    font-size: 72px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */

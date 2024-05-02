@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping list</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Add items</h1>
+    <form action="/list" method="post">
+    <input class="search-bar" type="text" name="user" placeholder="Username" required>
+    <br>
+    <br>
+    <select multiple name="items" class="items-select">
+        <%- options %>
+    </select>
+        <br><br>
+    <input class="orange-btn" type="submit">
+    </form>
+    <br>
+    <br>
+    <a class="home-btn" href ="/">← Go Home</a>
+</body>
+</html>
